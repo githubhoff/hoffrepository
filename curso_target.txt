@@ -1,0 +1,16 @@
+
+06/11
+
+INSTRUTOR CASSIO
+
+W3C
+W3SCHOOLS
+
+motor = interpretador
+croosbrowser = funciona para todos
+
+webstorm - editor de HTML
+
+1a pagina - index html
+
+

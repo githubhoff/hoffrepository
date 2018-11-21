@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index2.css" />
+    <title>Title</title>
+</head>
+<body>
+<div class="formCadastro">
+
+
+<form id="_primeiroform">
+    <div class="primeirobloco">
+    <fieldset>
+
+        <legend> Cliente </legend>
+        <div class="nome">
+        <label for="_name">Name:</label> <input type="text" id="nome" required placeholder="Informe o nome"> <p/>
+        </div>
+        <div class="telef">
+        <label for="_telefone">Telefone:</label> <input name="_telefone" type="number"  required pattern="\d{4}-?\d{5}"> <p/>
+        </div>
+        <div>
+        <label for="_email">Email Adress:</label> <input name="_email" type="email" required placeholder="Informe o Email"> <p/>
+        </div>
+
+    </fieldset>
+    </div>     <p/>
+    <fieldset>
+        <legend> Livros </legend>
+    <input name="_books" type="text"> Quantidade(Máximo 5): 1<input name="_quantidade" type="number" min="1" max="5" step="1" /> 5 <p/>
+    </fieldset> <p/>
+
+    <input id="_sumbit" type="submit" value="Enviar">
+</form>
+</div>
+</body>
+</html>

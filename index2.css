@@ -1,0 +1,24 @@
+/*
+tr:nth-child(ODD){
+    COLOR: #00066;
+    background-color: #cb070a;
+}
+*/
+.formCadastro { background-color: aquamarine;
+                width: 900px;
+                }
+.primeirobloco { background-color: aqua;
+        width: 900px;
+}
+
+#_primeiroform { height: 250px;
+                 width: 900px;}
+.nome  {
+    background-color: darkgoldenrod;
+}
+.telef { background-color: coral;
+
+}
+div{ width: 800px;
+    align-items: center;
+}
